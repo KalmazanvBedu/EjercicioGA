@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+}
+
+.contenedorPrincipal{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.hijoContenedorPrincipal{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    background-color: green;
+    color: #ffffff;
+    font-size: 40px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.videoYoutube{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px -4px gray; 
+}
